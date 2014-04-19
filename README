@@ -14,7 +14,7 @@ grammars definition file.
 
 Example:
 php parser_gen_exec.php example_1 -l log.txt
-or (the -l option is optional)
+or (the -l flag is optional)
 php parser_gen_exec.php example_1
 
 The module can be called from a browser too: the default log file name 
