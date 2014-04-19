@@ -89,7 +89,7 @@ Furthermore, if it is called by a browser, it displays the symbol table.
 The applications 'php_arrays' and 'ric_sql' are under development.
 
 This application has been developed with PHP version 5.5.7, but I suppose , it can run
-with many others previous, since no particulary advanced techniques has been used, except class
+with many others previous, since no particulary advanced techniques has been used,except class 
 construct.
  
 
