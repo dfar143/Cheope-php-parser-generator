@@ -40,7 +40,7 @@ The terminal 'epsilon' is the always true terminal.
 The terminal 'ws' is used to specify the white space and his exact definition 
 must be included (with his regular expression) in the tokens definition section.
 The code for not terminal SPACE is automatically generated and the associated production
-(implicitly present) is SPACE = ws | epsilon. Se not terminal SPACE can be freely
+(implicitly present) is SPACE = ws | epsilon. Not terminal SPACE can be freely
 used in the others productions.
 The right side is typically composed by successions of terminals and not terminals 
 divided by logical ORs symbols; each succession is a logical AND succession.
