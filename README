@@ -1,7 +1,7 @@
 Cheope-php-parser-generator
 ===========================
 
-RECURSIVE DESCENT PARSER GENERATOR FOR PHP.
+BACKTRACKING PARSER GENERATOR FOR PHP.
 
 The parser generator is in the 'grammar_rule_gen' directory.
 The main module is 'parser_gen_exec.php'.
