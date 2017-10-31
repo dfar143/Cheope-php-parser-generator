@@ -33,7 +33,7 @@ The main section contains 3 sub-sections:
 'productions' that contains all the productions for the grammar ('production' tags).
 
 A generic production has a very simple sintax; it is composed by
-terminals (in uppercase), not terminals (in lowercase), the equal (=) symbol that
+not terminals (in uppercase), terminals (in lowercase), the equal (=) symbol that
 divides the left and the right side of the production 
 and the logical OR symbol (|).
 The terminal 'epsilon' is the always true terminal.
