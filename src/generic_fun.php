@@ -141,7 +141,7 @@ function timeDiff($actInitTime,$actEndTime)
 
 function str_right($actStr,$actNum)
 {
-	if($actNum>=0)
+	if($actNum>0)
 	 return substr($actStr,strlen($actStr)-$actNum,$actNum);
   else
    return false;
@@ -149,7 +149,7 @@ function str_right($actStr,$actNum)
 
 function str_left($actStr,$actNum)
 {
- if($actNum>=0)
+ if($actNum>0)
   return substr($actStr,0,$actNum);
  else
   return false;
