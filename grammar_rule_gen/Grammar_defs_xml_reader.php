@@ -6,9 +6,9 @@ class Grammar_defs_xml_reader extends Generic_interface
 	private $fileName;
 	private $grammarDefs=array();
 	
-	function Grammar_defs_xml_reader($actNum)
+	function __construct($actNum)
 	{
-		parent::Generic_interface(STRING_NULL,INT_GRAMMAR_DEFS_XML_READER,$actNum);
+		parent::__construct(STRING_NULL,INT_GRAMMAR_DEFS_XML_READER,$actNum);
 	}
 	
 	function setFileName($actFileName)
