@@ -11,9 +11,9 @@ class Parser_grammar_rule_produz_1 extends Parser_grammar_rule
  var $rightElements = array();
  var $rightPos=0;
 
- function Parser_grammar_rule_produz_1()
+ function __construct()
  {
- 	parent::parser_grammar_rule(PRODUZ_1_GRAMMAR_RULE);
+ 	parent::__construct(PRODUZ_1_GRAMMAR_RULE);
  }
  
  function init()
