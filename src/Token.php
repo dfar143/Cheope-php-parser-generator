@@ -13,7 +13,7 @@ class Token
  var $attribute;
  var $lexema;
  
- function Token($actType="",$actVal="")
+ function __construct($actType="",$actVal="")
  {
  	$this->type = $actType;
  	$this->val = $actVal;
