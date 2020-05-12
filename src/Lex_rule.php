@@ -11,7 +11,7 @@ class Lex_rule
 	var $tokenVal;
 	var $currentLexema;
 
-	function Lex_rule($actName)
+	function __construct($actName)
 	{
 		$this->setName($actName);
 	}
