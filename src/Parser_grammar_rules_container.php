@@ -5,9 +5,9 @@ require_once("Parser_grammar_rule.php");
 
 class Parser_grammar_rules_container extends Container
 {
-	function Parser_grammar_rules_container($actName="")
+	function __construct($actName="")
 	{
-   parent::Container($actName);		
+   parent::__construct($actName);		
 	}
 	
  function setParserGrammarRules($actNodes)
