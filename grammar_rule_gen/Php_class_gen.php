@@ -19,7 +19,7 @@ class Php_class_gen extends Generic_interface
  private $methodsArgs = array();
  private $methodsBodies = array();
 
- function __construct($actClass,$actNum)
+ function __construct($actClass,$actNum) 
  {
  	parent::__construct(STRING_NULL,INT_PHP_CLASS_GEN,$actNum);
  	$this->setClassName($actClass);
