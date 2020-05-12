@@ -6,9 +6,9 @@ require_once("Token.php");
 class Tokens_container extends Container
 {	
 	
-	function Tokens_container($actName="")
+	function __construct($actName="")
 	{
-		parent::Container($actName);
+		parent::__construct($actName);
 	}
 	
 	function setTokens($actFields)
