@@ -5,9 +5,9 @@ require_once("Grammar_rule_gen.php");
 
 class Grammar_rule_gen_container extends Container
 {
-	function Grammar_rule_gen_container($actName="")
+	function __construct($actName="")
 	{
-   parent::Container($actName);		
+   parent::__construct($actName);		
 	}
 	
  function setGrammarRuleGens($actNodes)
