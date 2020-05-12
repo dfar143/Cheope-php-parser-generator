@@ -6,7 +6,7 @@ abstract class Container
 	var $name;
 	var $contents = array();
 	
-	function Container($actName="")
+	function __construct($actName="")
 	{
 		$this->name = $actName;
 	}
