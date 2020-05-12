@@ -9,9 +9,9 @@ class Parser_def_gen extends Generic_interface
  private $phpClassGen;
  private $grammarDefs=array();
 
- function Parser_def_gen($actNum)
+ function __construct($actNum)
  {
-  parent::Generic_interface(STRING_NULL,INT_PARSER_DEF_GEN,$actNum);
+  parent::__construct(STRING_NULL,INT_PARSER_DEF_GEN,$actNum);
  }
 
  function setPrjName($actPrjName)
