@@ -342,7 +342,7 @@ private function genMethodBodyBody($actRightElements)
    $phpClassGen->setDefines(array($defineItem=>$grRuleName));
    $phpClassGen->setClassName(ucFirst(self::RULE_SUFFIX) . STRING_UNDERSCORE . $grRuleName);
    $phpClassGen->setConstructorArgs(array());
-   $phpClassGen->setConstructorBody("parent::parser_grammar_rule(" . $defineItem . ");");
+   $phpClassGen->setConstructorBody("parent::__construct(" . $defineItem . ");");
    
    $phpClassProps=array();
    $phpClassGen->setPublicProps($phpClassProps);
