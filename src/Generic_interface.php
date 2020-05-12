@@ -21,7 +21,7 @@ abstract class Generic_interface
  
  private $type;
  
- function Generic_interface($actOp,$actType,$actNum)
+ function __construct($actOp,$actType,$actNum)
  {
 	$this->op = $actOp;
 	$this->num = $actNum;
