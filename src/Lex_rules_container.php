@@ -5,9 +5,9 @@ require_once("Lex_rule.php");
 
 class Lex_rules_container extends Container
 {
-	function Lex_rules_container($actName="")
+	function __construct($actName="")
 	{
-   parent::Container($actName);		
+   parent::__construct($actName);		
 	}
 	
  function setLexRules($actRules)
