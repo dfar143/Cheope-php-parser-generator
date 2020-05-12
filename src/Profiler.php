@@ -5,7 +5,7 @@ class Profiler
  var $endTime;
  var $totTimeSec;
 
- function Profiler()
+ function __construct()
  {
  }
  
