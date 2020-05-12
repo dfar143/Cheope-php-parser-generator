@@ -7,9 +7,9 @@ class  Parser_grammar_rule_a extends parser_grammar_rule
 {
 
 
-function Parser_grammar_rule_a()
+function __construct()
 {
-parent::parser_grammar_rule(A_GRAMMAR_RULE);
+parent::__construct(A_GRAMMAR_RULE);
 }
 
 function init()
