@@ -19,9 +19,9 @@ class Php_class_gen extends Generic_interface
  private $methodsArgs = array();
  private $methodsBodies = array();
 
- function Php_class_gen($actClass,$actNum)
+ function __construct($actClass,$actNum)
  {
- 	parent::Generic_interface(STRING_NULL,INT_PHP_CLASS_GEN,$actNum);
+ 	parent::__construct(STRING_NULL,INT_PHP_CLASS_GEN,$actNum);
  	$this->setClassName($actClass);
  }
  
@@ -304,7 +304,7 @@ class Php_class_gen extends Generic_interface
  function putConstructor()
  {
  	$constructorArgs = &$this->getConstructorArgs();
- 	$constructorHeader = "function" . STRING_SPACE . ucFirst($this->getClassName()) .
+ 	$constructorHeader = "function" . STRING_SPACE . "__construct" .
  	STRING_OPEN_PAR ;
  	$constructorBody = $this->getConstructorBody();
  	if(isset($constructorArgs[0]))
