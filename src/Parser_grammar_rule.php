@@ -6,7 +6,7 @@ abstract class Parser_grammar_rule
 	private $name;
 	private $parser=null;
   
-	function Parser_grammar_rule($actName)
+	function __construct($actName)
 	{
 		$this->name = $actName;
 	}
