@@ -5,7 +5,7 @@ abstract class Iiterator
 {
 	var $obj;
 	
-	function Iiterator($actObj)
+	function __construct($actObj)
 	{
 		$this->obj = $actObj;
 	}
