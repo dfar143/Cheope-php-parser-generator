@@ -11,9 +11,9 @@ class Grammar_rules_gen extends Generic_interface
  private $logEnabled=false;
  private $logFileName=STRING_NULL;
  	
- function Grammar_rules_gen($actNum)
+ function __construct($actNum)
  {
- 	parent::Generic_interface(STRING_NULL,INT_GRAMMAR_RULES_GEN,$actNum);
+ 	parent::__construct(STRING_NULL,INT_GRAMMAR_RULES_GEN,$actNum);
  }
  
  function setLogEnabled($actLogEnabled)
