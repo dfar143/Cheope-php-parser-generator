@@ -30,7 +30,7 @@ class Parser
 // Execution results.
  var $results = array(); 
  
- function Parser($actLex)	
+ function __construct($actLex)	
  {
  	$this->setLex($actLex);
  	$this->setGrammarRulesContainer(null);
