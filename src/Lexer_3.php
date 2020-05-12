@@ -34,7 +34,7 @@ class Lexer_3
  // $lex->init();
  // $lex->exec();
  
- function Lexer_3($actFileName=STRING_NULL,$actItemStr=STRING_NULL)
+ function __construct($actFileName=STRING_NULL,$actItemStr=STRING_NULL)
  {
  	$this->setFileName($actFileName);
  	$this->setItemStr($actItemStr);
