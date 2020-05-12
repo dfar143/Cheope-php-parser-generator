@@ -18,9 +18,9 @@ class Grammar_rule_gen extends Generic_interface
  private $phpCloseTagEnabled=false;
  private $prjName;
 
- function Grammar_rule_gen($actNum)
+ function __construct($actNum)
  {
- 	parent::Generic_interface(STRING_NULL,INT_GRAMMAR_RULE_GEN,$actNum);
+ 	parent::__construct(STRING_NULL,INT_GRAMMAR_RULE_GEN,$actNum);
  }
  
  function setPrjName($actPrjName)
