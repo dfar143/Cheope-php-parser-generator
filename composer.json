@@ -2,6 +2,6 @@
 "name": "dfar143/cheope-php-parser-generator",
 "description": "It generates generic parser written in php",
 "require" : {
-"php":"5.0"
+"php":">=5.0"
 }
 }
