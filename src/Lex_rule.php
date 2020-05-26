@@ -1,4 +1,6 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 require_once("generic_fun.php");
 require_once("Token.php");
 

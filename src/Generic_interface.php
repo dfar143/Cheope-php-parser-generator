@@ -1,4 +1,6 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 require_once("generic_const.php");
 
 define("INT_PHP_CLASS_GEN","class_gen");

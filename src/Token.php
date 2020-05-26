@@ -1,4 +1,8 @@
 <?
+namespace Cheope_ppp_ns\src;
+
+require_once("generic_const.php");
+
 class Token
 {
  const TYPE_RESERVED_WORD="Reserved_word";
@@ -13,7 +17,7 @@ class Token
  var $attribute;
  var $lexema;
  
- function __construct($actType="",$actVal="")
+ function __construct($actType=STRING_NULL,$actVal=STRING_NULL)
  {
  	$this->type = $actType;
  	$this->val = $actVal;

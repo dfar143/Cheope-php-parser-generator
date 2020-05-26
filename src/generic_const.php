@@ -1,4 +1,6 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 define("STRING_ESC_RETURN","\n");
 define("STRING_RETURN",chr(13));
 define("STRING_LINE_FEED",chr(10));

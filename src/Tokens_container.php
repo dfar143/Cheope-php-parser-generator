@@ -1,4 +1,6 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 require_once("Iiterator.php");
 require_once("Container.php");
 require_once("Token.php");
@@ -6,7 +8,7 @@ require_once("Token.php");
 class Tokens_container extends Container
 {	
 	
-	function __construct($actName="")
+	function __construct($actName=STRING_NULL)
 	{
 		parent::__construct($actName);
 	}
@@ -96,9 +98,9 @@ class Tokens_container extends Container
 
 class Tokens_iterator extends Iiterator
 {
-  function Tokens_iterator($actObj)
+  function __construct($actObj)
  	{
- 	  parent::Iiterator($actObj);
+ 	  parent::__construct($actObj);
  	}
  	
  	function pos()

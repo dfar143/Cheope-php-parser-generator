@@ -1,11 +1,13 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 require_once("Container.php");
 require_once("Iiterator.php");
 require_once("Parser_grammar_rule.php");
 
 class Parser_grammar_rules_container extends Container
 {
-	function __construct($actName="")
+	function __construct($actName=STRING_NULL)
 	{
    parent::__construct($actName);		
 	}
@@ -98,9 +100,9 @@ class Parser_grammar_rules_container extends Container
 
 class Parser_grammar_rules_iterator extends Iiterator
 {
-  function Parser_grammar_rules_iterator($actObj)
+  function __construct($actObj)
  	{
- 	  parent::Iiterator($actObj);
+ 	  parent::__construct($actObj);
  	}
  	 
  	function &next()

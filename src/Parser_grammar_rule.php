@@ -1,4 +1,6 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 require_once("Parser.php");
 
 abstract class Parser_grammar_rule

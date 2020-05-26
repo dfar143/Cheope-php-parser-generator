@@ -1,4 +1,6 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 require_once("generic_const.php");
 require_once("Lex_rules_container.php");
 require_once("Token.php");

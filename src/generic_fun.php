@@ -1,4 +1,6 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 require_once("generic_const.php");
 
 function is_id_char($actAsciiVal)

@@ -1,4 +1,6 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 define('ATTRIBUTE_ID',"id");
 define('ATTRIBUTE_HREF',"href");
 define('ATTRIBUTE_TARGET',"target");

@@ -1,4 +1,6 @@
 <?
+namespace Cheope_ppp_ns\src;
+
 require_once("Lexer_3.php");
 require_once("Tokens_container.php");
 require_once("Parser_grammar_rules_container.php");
@@ -243,8 +245,10 @@ class Parser
  	$this->putLog("Matching token char:" . $actChar);
  	$tokenVal = $token->getVal();
  	$tokenType = $token->getType();
+ 	$tokenLexema = $token->getLexema();
  	$this->putLog("Current token type:" . $tokenType);
  	$this->putLog("Current token char:" . $tokenVal);
+ 	$this->putLog("Current token lexema:" . $tokenLexema);
  	if(($tokenVal == $actChar)&&($tokenType == $actType))
  	{
  	 if ($actAttr != STRING_NULL)
