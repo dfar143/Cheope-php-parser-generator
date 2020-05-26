@@ -55,7 +55,7 @@
    	ITEMS2 = ITEM
    </production>
    <production name="">
-    ITEM =  item1 | item2 | num | const
+    ITEM =  item1 | item2 | num | const 
    </production>
    <production name="">
     NEXT_ITEM = virgola SPACE ITEMS_SEQ | epsilon

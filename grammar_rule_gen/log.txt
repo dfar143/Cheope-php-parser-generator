@@ -1,0 +1,270 @@
+Rule:Regola1
+Matched string:
+Matching string:A = alfa ac as bs alfa | GUP | beta F
+Matched string:A
+Rule:Regola1
+Matched string:A
+Matching string:A = alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: = alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Rule:Regola4
+Rule:Regola5
+Matched string:=
+Rule:Regola1
+Matched string:=
+Matching string:= alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Matched string:alfa
+Rule:Regola1
+Matched string:alfa
+Matching string:alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: ac as bs alfa | GUP | beta F
+Rule:Regola2
+Matched string:ac
+Rule:Regola1
+Matched string:ac
+Matching string:ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: as bs alfa | GUP | beta F
+Rule:Regola2
+Matched string:as
+Rule:Regola1
+Matched string:as
+Matching string:as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: bs alfa | GUP | beta F
+Rule:Regola2
+Matched string:bs
+Rule:Regola1
+Matched string:bs
+Matching string:bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: alfa | GUP | beta F
+Rule:Regola2
+Matched string:alfa
+Rule:Regola1
+Matched string:alfa
+Matching string:alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Rule:Regola4
+Matched string:|
+Rule:Regola1
+Matched string:|
+Matching string:| GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: GUP | beta F
+Matched string:GUP
+Rule:Regola1
+Matched string:GUP
+Matching string:GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: | beta F
+Rule:Regola2
+Rule:Regola3
+Rule:Regola4
+Matched string:|
+Rule:Regola1
+Matched string:|
+Matching string:| beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: beta F
+Rule:Regola2
+Matched string:beta
+Rule:Regola1
+Matched string:beta
+Matching string:beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: F
+Matched string:F
+Rule:Regola1
+Matched string:F
+Matching string:F
+Rule:Regola2
+Rule:Regola3
+Rule:Regola4
+Rule:Regola5
+Rule:Regola1
+Matched string:
+Matching string:A = alfa ac as bs alfa | GUP | beta F
+Matched string:A
+Rule:Regola1
+Matched string:A
+Matching string:A = alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: = alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Rule:Regola4
+Rule:Regola5
+Matched string:=
+Rule:Regola1
+Matched string:=
+Matching string:= alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Matched string:alfa
+Rule:Regola1
+Matched string:alfa
+Matching string:alfa ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: ac as bs alfa | GUP | beta F
+Rule:Regola2
+Matched string:ac
+Rule:Regola1
+Matched string:ac
+Matching string:ac as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: as bs alfa | GUP | beta F
+Rule:Regola2
+Matched string:as
+Rule:Regola1
+Matched string:as
+Matching string:as bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: bs alfa | GUP | beta F
+Rule:Regola2
+Matched string:bs
+Rule:Regola1
+Matched string:bs
+Matching string:bs alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: alfa | GUP | beta F
+Rule:Regola2
+Matched string:alfa
+Rule:Regola1
+Matched string:alfa
+Matching string:alfa | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: | GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Rule:Regola4
+Matched string:|
+Rule:Regola1
+Matched string:|
+Matching string:| GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: GUP | beta F
+Matched string:GUP
+Rule:Regola1
+Matched string:GUP
+Matching string:GUP | beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: | beta F
+Rule:Regola2
+Rule:Regola3
+Rule:Regola4
+Matched string:|
+Rule:Regola1
+Matched string:|
+Matching string:| beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: beta F
+Rule:Regola2
+Matched string:beta
+Rule:Regola1
+Matched string:beta
+Matching string:beta F
+Rule:Regola2
+Rule:Regola3
+Matched string: 
+Rule:Regola1
+Matched string: 
+Matching string: F
+Matched string:F
+Rule:Regola1
+Matched string:F
+Matching string:F

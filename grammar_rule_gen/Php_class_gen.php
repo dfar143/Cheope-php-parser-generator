@@ -19,7 +19,7 @@ class Php_class_gen extends Generic_interface
  private $methodsArgs = array();
  private $methodsBodies = array();
 
- function __construct($actClass,$actNum) 
+ function __construct($actClass,$actNum)
  {
  	parent::__construct(STRING_NULL,INT_PHP_CLASS_GEN,$actNum);
  	$this->setClassName($actClass);
@@ -309,7 +309,7 @@ class Php_class_gen extends Generic_interface
  	$constructorBody = $this->getConstructorBody();
  	if(isset($constructorArgs[0]))
    $constructorHeader = $constructorHeader . $constructorArgs[0];
-  $num = count($constructorArgs); 
+  $num = strlen($constructorArgs); 
   for($i=1;$i<=$num-1;$i++)
    $constructorHeader = $constructorHeader . STRING_COMMA . $constructorArgs[$i];
   $constructorHeader = $constructorHeader . STRING_CLOSE_PAR;
