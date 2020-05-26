@@ -1,2 +1,1 @@
-array(0 => 'Ddata_1',
-  1 => 'Ddata_2',2=>M)
+array( 0 => 'aaa')

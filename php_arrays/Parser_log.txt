@@ -12,6 +12,7 @@ Matching token type:Reserved_word
 Matching token char:array
 Current token type:Reserved_word
 Current token char:array
+Current token lexema:array
 Match OK.
 Getting next token.
 Entering getNextToken.
@@ -28,6 +29,7 @@ Matching token type:Delim
 Matching token char:ws
 Current token type:Special_item
 Current token char:open_par
+Current token lexema:(
 Match FAILED.
 Entering match.
 Getting current token.
@@ -36,46 +38,7 @@ Matching token type:Special_item
 Matching token char:open_par
 Current token type:Special_item
 Current token char:open_par
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:num
-Next token type:Lexical_element
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Delim
-Matching token char:ws
-Current token type:Lexical_element
-Current token char:num
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:item1
-Current token type:Lexical_element
-Current token char:num
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:item2
-Current token type:Lexical_element
-Current token char:num
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:num
-Current token type:Lexical_element
-Current token char:num
+Current token lexema:(
 Match OK.
 Getting next token.
 Entering getNextToken.
@@ -92,6 +55,59 @@ Matching token type:Delim
 Matching token char:ws
 Current token type:Delim
 Current token char:ws
+Current token lexema: 
+Match OK.
+Getting next token.
+Entering getNextToken.
+Token buffer at top.
+Reading new token from lex.
+Next token val:num
+Next token type:Lexical_element
+Ending getNextToken OK.
+Next Token get.
+Entering match.
+Getting current token.
+Current token get.
+Matching token type:Lexical_element
+Matching token char:item1
+Current token type:Lexical_element
+Current token char:num
+Current token lexema:0
+Match FAILED.
+Entering match.
+Getting current token.
+Current token get.
+Matching token type:Lexical_element
+Matching token char:item2
+Current token type:Lexical_element
+Current token char:num
+Current token lexema:0
+Match FAILED.
+Entering match.
+Getting current token.
+Current token get.
+Matching token type:Lexical_element
+Matching token char:num
+Current token type:Lexical_element
+Current token char:num
+Current token lexema:0
+Match OK.
+Getting next token.
+Entering getNextToken.
+Token buffer at top.
+Reading new token from lex.
+Next token val:ws
+Next token type:Delim
+Ending getNextToken OK.
+Next Token get.
+Entering match.
+Getting current token.
+Current token get.
+Matching token type:Delim
+Matching token char:ws
+Current token type:Delim
+Current token char:ws
+Current token lexema: 
 Match OK.
 Getting next token.
 Entering getNextToken.
@@ -108,6 +124,7 @@ Matching token type:Special_item
 Matching token char:arrow
 Current token type:Special_item
 Current token char:arrow
+Current token lexema:=>
 Match OK.
 Getting next token.
 Entering getNextToken.
@@ -124,6 +141,7 @@ Matching token type:Delim
 Matching token char:ws
 Current token type:Delim
 Current token char:ws
+Current token lexema: 
 Match OK.
 Getting next token.
 Entering getNextToken.
@@ -140,278 +158,7 @@ Matching token type:Lexical_element
 Matching token char:item1
 Current token type:Lexical_element
 Current token char:item1
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:virgola
-Next token type:Special_item
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Delim
-Matching token char:ws
-Current token type:Special_item
-Current token char:virgola
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Special_item
-Matching token char:virgola
-Current token type:Special_item
-Current token char:virgola
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:ws
-Next token type:Delim
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Delim
-Matching token char:ws
-Current token type:Delim
-Current token char:ws
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:num
-Next token type:Lexical_element
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:item1
-Current token type:Lexical_element
-Current token char:num
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:item2
-Current token type:Lexical_element
-Current token char:num
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:num
-Current token type:Lexical_element
-Current token char:num
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:ws
-Next token type:Delim
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Delim
-Matching token char:ws
-Current token type:Delim
-Current token char:ws
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:arrow
-Next token type:Special_item
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Special_item
-Matching token char:arrow
-Current token type:Special_item
-Current token char:arrow
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:ws
-Next token type:Delim
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Delim
-Matching token char:ws
-Current token type:Delim
-Current token char:ws
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:item1
-Next token type:Lexical_element
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:item1
-Current token type:Lexical_element
-Current token char:item1
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:virgola
-Next token type:Special_item
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Delim
-Matching token char:ws
-Current token type:Special_item
-Current token char:virgola
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Special_item
-Matching token char:virgola
-Current token type:Special_item
-Current token char:virgola
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:num
-Next token type:Lexical_element
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Delim
-Matching token char:ws
-Current token type:Lexical_element
-Current token char:num
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:item1
-Current token type:Lexical_element
-Current token char:num
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:item2
-Current token type:Lexical_element
-Current token char:num
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:num
-Current token type:Lexical_element
-Current token char:num
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:arrow
-Next token type:Special_item
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Delim
-Matching token char:ws
-Current token type:Special_item
-Current token char:arrow
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Special_item
-Matching token char:arrow
-Current token type:Special_item
-Current token char:arrow
-Match OK.
-Getting next token.
-Entering getNextToken.
-Token buffer at top.
-Reading new token from lex.
-Next token val:const
-Next token type:Lexical_element
-Ending getNextToken OK.
-Next Token get.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Delim
-Matching token char:ws
-Current token type:Lexical_element
-Current token char:const
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:item1
-Current token type:Lexical_element
-Current token char:const
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:item2
-Current token type:Lexical_element
-Current token char:const
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:num
-Current token type:Lexical_element
-Current token char:const
-Match FAILED.
-Entering match.
-Getting current token.
-Current token get.
-Matching token type:Lexical_element
-Matching token char:const
-Current token type:Lexical_element
-Current token char:const
+Current token lexema:'aaa'
 Match OK.
 Getting next token.
 Entering getNextToken.
@@ -428,6 +175,7 @@ Matching token type:Delim
 Matching token char:ws
 Current token type:Special_item
 Current token char:close_par
+Current token lexema:)
 Match FAILED.
 Entering match.
 Getting current token.
@@ -436,6 +184,7 @@ Matching token type:Special_item
 Matching token char:virgola
 Current token type:Special_item
 Current token char:close_par
+Current token lexema:)
 Match FAILED.
 Entering match.
 Getting current token.
@@ -444,6 +193,7 @@ Matching token type:Delim
 Matching token char:ws
 Current token type:Special_item
 Current token char:close_par
+Current token lexema:)
 Match FAILED.
 Entering match.
 Getting current token.
@@ -452,6 +202,7 @@ Matching token type:Special_item
 Matching token char:close_par
 Current token type:Special_item
 Current token char:close_par
+Current token lexema:)
 Match OK.
 Getting next token.
 Entering getNextToken.
